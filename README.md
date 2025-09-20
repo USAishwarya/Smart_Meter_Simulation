@@ -1,58 +1,51 @@
-🔌 Smart Meter Simulation using Arduino
-📌 Overview
+# 🔌 Smart Meter Simulation using Arduino
 
-This project simulates a Smart Energy Meter using an Arduino Uno. It measures power consumption, displays the data on an LCD screen, and controls load using a relay. The system demonstrates the working of a digital electricity meter with basic automation features.
+## 📌 Overview
 
-⚡ Features
+This project simulates a **Smart Energy Meter** using an Arduino Uno. It measures power consumption, displays the data on an LCD screen, and controls load using a relay. The system demonstrates the working of a digital electricity meter with basic automation features.
 
-Real-time energy consumption monitoring
+## ⚡ Features
 
-Display of readings on LCD
+* Real-time energy consumption monitoring
+* Display of readings on LCD
+* Relay-based load control
+* Simulation of energy usage in an IoT-enabled smart meter system
 
-Relay-based load control
+## 🛠 Components Used
 
-Simulation of energy usage in an IoT-enabled smart meter system
+* Arduino Uno
+* 16x2 LCD Display (I2C interface)
+* Relay Module
+* Load (Bulb)
+* Power Supply Module
+* Resistors, Jumper Wires, Breadboard
 
-🛠 Components Used
+## 💻 Technologies Used
 
-Arduino Uno
+* **Arduino IDE** (for programming)
+* **Embedded C / Arduino Language**
+* **Tinkercad / Eagle** (for simulation & PCB design)
 
-16x2 LCD Display (I2C interface)
+## 🔧 Circuit Diagram
 
-Relay Module
+![Circuit Diagram](Smart%20%20Meter%20Simulation.png)
 
-Load (Bulb)
+## 🚀 How to Run
 
-Power Supply Module
+1. Open the provided `.ino` file in **Arduino IDE**
+2. Connect the components as shown in the circuit diagram
+3. Upload the code to Arduino Uno
+4. Observe readings on the LCD and relay control
 
-Resistors, Jumper Wires, Breadboard
+## 📂 Repository Structure
 
-💻 Technologies Used
-
-Arduino IDE (for programming)
-
-Embedded C / Arduino Language
-
-Tinkercad / Eagle (for simulation & PCB design)
-
-🔧 Circuit Diagram
-
-🚀 How to Run
-
-Open the provided .ino file in Arduino IDE
-
-Connect the components as shown in the circuit diagram
-
-Upload the code to Arduino Uno
-
-Observe readings on the LCD and relay control
-
-📂 Repository Structure
+```
 ├── smart_meter_simulation1.ino      # Arduino code
 ├── Smart Meter Simulation.brd       # Circuit/PCB design file
 ├── Smart Meter Simulation.png       # Circuit diagram
 └── README.md                        # Project documentation
+```
 
-📸 Demo
+## 📸 Demo
 
-<img width="1536" height="679" alt="Smart  Meter Simulation" src="https://github.com/user-attachments/assets/01901cfb-7580-4bdf-a41a-5a0155514050" />
+<img width="825" height="647" alt="Tinkercad" src="https://github.com/user-attachments/assets/a9086868-e254-439f-b6f1-e51ef06deee1" />
